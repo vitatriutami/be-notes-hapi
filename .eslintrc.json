@@ -5,11 +5,12 @@
   },
   "extends": ["airbnb-base"],
   "parserOptions": {
-    "ecmaVersion": 2020
+    "ecmaVersion": 2020,
+    "sourceType": "script" // Add this to indicate CommonJS
   },
   "rules": {
     "no-console": "off",
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": ["error", "windows"],
     "no-underscore-dangle": ["error", { "allow": ["_service", "_notes"] }]
   }
 }
